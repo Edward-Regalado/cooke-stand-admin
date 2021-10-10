@@ -6,7 +6,8 @@ import CreateForm from './create-form'
 
 export default function Main(props) {
 
-  const [cookieData, setCookieData] = useState([])
+  const [ cookieData, setCookieData ] = useState([])
+  
 
   function createCookieStand(e) {
     e.preventDefault();
